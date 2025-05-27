@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="service.Menu">
+  <grid id="27dc6" binding="menuWindow" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="518" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="ddcf" binding="profileBtnPanel" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="991ee" class="javax.swing.JLabel" binding="displayProfileLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <preferredSize width="50" height="17"/>
+              <text value="Display Profile"/>
+            </properties>
+          </component>
+          <component id="85bdc" class="javax.swing.JButton" binding="displayBtn">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <preferredSize width="50" height="34"/>
+              <text value="View"/>
+            </properties>
+          </component>
+          <component id="1007c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <text value="Generate Payslip Record"/>
+            </properties>
+          </component>
+          <component id="f6" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <model>
+                <item value="--- Select a period ---"/>
+                <item value="Payslip 1 - 06/03/2024 to 06/09/2024"/>
+                <item value="Payslip 2 - 06/10/2024 to 06/16/2024"/>
+                <item value="Payslip 3 - 06/17/2024 to 06/23/2024"/>
+                <item value="Payslip 4 - 06/24/2024 to 06/30/2024"/>
+                <item value="Payslip 5 - 07/01/2024 to 07/07/2024"/>
+                <item value="Payslip 6 - 07/08/2024 to 07/14/2024"/>
+                <item value="Payslip 7 - 07/15/2024 to 07/21/2024"/>
+                <item value="Payslip 8 - 07/22/2024 to 07/28/2024"/>
+                <item value="Payslip 9 - 07/29/2024 to 08/04/2024"/>
+                <item value="Payslip 10 - 08/05/2024 to 08/11/2024"/>
+                <item value="Payslip 11 - 08/12/2024 to 08/18/2024"/>
+                <item value="Payslip 12 - 08/19/2024 to 08/25/2024"/>
+                <item value="Payslip 13 - 08/26/2024 to 09/01/2024"/>
+                <item value="Payslip 14 - 09/02/2024 to 09/08/2024"/>
+                <item value="Payslip 15 - 09/09/2024 to 09/15/2024"/>
+                <item value="Payslip 16 - 09/16/2024 to 09/22/2024"/>
+                <item value="Payslip 17 - 09/23/2024 to 09/29/2024"/>
+                <item value="Payslip 18 - 09/30/2024 to 10/06/2024"/>
+                <item value="Payslip 19 - 10/07/2024 to 10/13/2024"/>
+                <item value="Payslip 20 - 10/14/2024 to 10/20/2024"/>
+                <item value="Payslip 21 - 10/21/2024 to 10/27/2024"/>
+                <item value="Payslip 22 - 10/28/2024 to 11/03/2024"/>
+                <item value="Payslip 23 - 11/04/2024 to 11/10/2024"/>
+                <item value="Payslip 24 - 11/11/2024 to 11/17/2024"/>
+                <item value="Payslip 25 - 11/18/2024 to 11/24/2024"/>
+                <item value="Payslip 26 - 11/25/2024 to 12/01/2024"/>
+                <item value="Payslip 27 - 12/02/2024 to 12/08/2024"/>
+                <item value="Payslip 28 - 12/09/2024 to 12/15/2024"/>
+                <item value="Payslip 29 - 12/16/2024 to 12/22/2024"/>
+                <item value="Payslip 30 - 12/23/2024 to 12/29/2024"/>
+                <item value="Payslip 31 - 12/30/2024 to 12/31/2024"/>
+              </model>
+            </properties>
+          </component>
+          <vspacer id="aa4a">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="a4983">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="9f1bf" binding="displayScreen" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4dd02" class="javax.swing.JTextArea" binding="displayText">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <autoscrolls value="true"/>
+              <editable value="false"/>
+              <focusable value="false"/>
+              <font name="Monospaced" size="16" style="0"/>
+              <lineWrap value="true"/>
+              <margin top="15" left="24" bottom="0" right="0"/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
